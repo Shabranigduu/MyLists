@@ -1,5 +1,10 @@
 import java.util.Comparator;
-
+/**
+ * Кастомная реализация интерфейса List
+ *
+ * @param <T> Тип принимаемых объектов
+ * @author Dmitriy Karpievich
+ */
 public interface MyList<T> {
     /**
      * Размер списка

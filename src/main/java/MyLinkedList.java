@@ -1,6 +1,11 @@
 import java.util.Arrays;
 import java.util.Comparator;
-
+/**
+ * Кастомная реализация LinkedList в виде односвязанного списка
+ *
+ * @param <T> Тип принимаемых объектов
+ * @author Dmitriy Karpievich
+ */
 public class MyLinkedList<T> implements MyList<T> {
 
     private Node<T> head;
